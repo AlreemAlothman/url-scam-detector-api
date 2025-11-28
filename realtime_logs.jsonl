@@ -1,0 +1,71 @@
+5 changes detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+{"timestamp": "2025-11-28T21:49:58.096435Z", "client_ip": "127.0.0.1", "url": "https://www.mask.ai/detector", "domain": "mask.ai", "prediction": "benign", "probability_malicious": 0.0013202465302108819, "trusted_domain": false, "thresholds": {"safe": 0.3, "malicious": 0.85}, "model_version": "v2.0", "source": "model"}
+1 change detected
+{"timestamp": "2025-11-28T21:50:20.016796Z", "client_ip": "127.0.0.1", "url": "https://chatgpt.com/c/692a000d-1538-8325-84a0-34898ca49333", "domain": "chatgpt.com", "prediction": "suspicious", "probability_malicious": 0.67027526090383, "trusted_domain": false, "thresholds": {"safe": 0.3, "malicious": 0.85}, "model_version": "v2.0", "source": "model"}
+1 change detected
+{"timestamp": "2025-11-28T21:50:36.508466Z", "client_ip": "127.0.0.1", "url": "https://colab.research.google.com/drive/1XvtgRSFjdV1BcwlRjAEmOpA5Cr6WgAdV#scrollTo=56lUlP_vXrOa", "domain": "colab.research.google.com", "prediction": "suspicious", "probability_malicious": 0.7875031276765088, "trusted_domain": false, "thresholds": {"safe": 0.3, "malicious": 0.85}, "model_version": "v2.0", "source": "model"}
+1 change detected
+{"timestamp": "2025-11-28T21:50:55.219729Z", "client_ip": "127.0.0.1", "url": "https://auth.imamu.edu.sa/sso/saml/ba487c52-e6d1-4007-9243-cf738546489f?entityID=Blackboard%E2%80%91SP%E2%80%91MyPage&returnIDParam=idp", "domain": "auth.imamu.edu.sa", "prediction": "suspicious", "probability_malicious": 0.5840731794244047, "trusted_domain": false, "thresholds": {"safe": 0.3, "malicious": 0.85}, "model_version": "v2.0", "source": "model"}
+1 change detected
+1 change detected
+{"timestamp": "2025-11-28T21:51:20.143815Z", "client_ip": "127.0.0.1", "url": "https://web.whatsapp.com/", "domain": "web.whatsapp.com", "prediction": "suspicious", "probability_malicious": 0.6871184731446955, "trusted_domain": false, "thresholds": {"safe": 0.3, "malicious": 0.85}, "model_version": "v2.0", "source": "model"}
+1 change detected
+1 change detected
+{"timestamp": "2025-11-28T21:51:42.657522Z", "client_ip": "127.0.0.1", "url": "https://railway.com/dashboard", "domain": "railway.com", "prediction": "suspicious", "probability_malicious": 0.36649924462872335, "trusted_domain": false, "thresholds": {"safe": 0.3, "malicious": 0.85}, "model_version": "v2.0", "source": "model"}
+1 change detected
+{"timestamp": "2025-11-28T21:52:01.348831Z", "client_ip": "127.0.0.1", "url": "https://www.youtube.com/", "domain": "youtube.com", "prediction": "benign", "probability_malicious": 0.01, "trusted_domain": true, "thresholds": {"safe": 0.3, "malicious": 0.85}, "model_version": "v2.0", "source": "whitelist"}
+1 change detected
+{"timestamp": "2025-11-28T21:52:22.465840Z", "client_ip": "127.0.0.1", "url": "https://web.telegram.org/a/", "domain": "web.telegram.org", "prediction": "suspicious", "probability_malicious": 0.37222097055801834, "trusted_domain": false, "thresholds": {"safe": 0.3, "malicious": 0.85}, "model_version": "v2.0", "source": "model"}
+1 change detected
+1 change detected
+{"timestamp": "2025-11-28T21:52:52.760101Z", "client_ip": "127.0.0.1", "url": "https://novaorderrwater.wixsite.com/order", "domain": "novaorderrwater.wixsite.com", "prediction": "malicious", "probability_malicious": 0.8516019502788733, "trusted_domain": false, "thresholds": {"safe": 0.3, "malicious": 0.85}, "model_version": "v2.0", "source": "model"}
+1 change detected
+1 change detected
+{"timestamp": "2025-11-28T21:53:22.267899Z", "client_ip": "127.0.0.1", "url": "http://login-secure-paypal.com.verify-account-security.ru/", "domain": "login-secure-paypal.com.verify-account-security.ru", "prediction": "malicious", "probability_malicious": 0.9999894399221737, "trusted_domain": false, "thresholds": {"safe": 0.3, "malicious": 0.85}, "model_version": "v2.0", "source": "model"}
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+1 change detected
+9 changes detected
+1 change detected
+4 changes detected
+1 change detected
+3 changes detected
