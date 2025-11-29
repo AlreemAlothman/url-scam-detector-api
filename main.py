@@ -48,7 +48,7 @@ app = FastAPI(
     version=MODEL_VERSION,
 )
 
-# قائمة الدومينات الموثوقة (تقدرين تزيدينها)
+# قائمة الدومينات الموثوقة 
 TRUSTED_DOMAINS = {
     "google.com",
     "youtube.com",
@@ -188,4 +188,5 @@ if __name__ == "__main__":
         port=port,
         reload=False
     )
+
 
