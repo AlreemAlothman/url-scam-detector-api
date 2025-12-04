@@ -7,7 +7,7 @@ The API loads a saved model and vectorizer, checks trusted domains, processes th
 
 • FastAPI endpoint for real-time URL classification
 • Trusted-domain whitelist to reduce false positives
-• Uses a trained ML model and vectorizer (joblib)
+• Uses a trained ML model and vectorizer
 • Ready for deployment on Railway or any cloud platform
 
 ## Run the API
