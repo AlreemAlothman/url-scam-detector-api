@@ -9,11 +9,6 @@ Features
 • Uses a trained ML model and vectorizer (joblib)
 • Ready for deployment on Railway or any cloud platform
 
-Installation
-git clone https://github.com/AlreemAlothman/url-scam-detector-api.git
-cd url-scam-detector-api
-pip install -r requirements.txt
-uvicorn main:app --reload
 
 
 API will run at:
@@ -39,7 +34,7 @@ Response:
 
 {
   "url": "https://example.com",
-  "prediction": "safe"
+  "prediction": "safe"  
 }
 
 Project Files
