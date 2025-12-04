@@ -1,61 +1,73 @@
-URL Scam Detector API
+# URL Scam Detector API
 
-A lightweight FastAPI service that detects whether a URL is safe or phishing using a trained machine-learning model. The API loads a saved model and vectorizer, checks trusted domains, processes the URL, and returns a real-time classification result.
+A lightweight FastAPI service that detects whether a URL is **safe or phishing** using a trained machine-learning model.
+The API loads a saved model and vectorizer, checks trusted domains, processes the URL, and returns a real-time classification result.
 
-Features
+## Features
 
 • FastAPI endpoint for real-time URL classification
 • Trusted-domain whitelist to reduce false positives
 • Uses a trained ML model and vectorizer (joblib)
 • Ready for deployment on Railway or any cloud platform
 
+## Run the API
 
+The API will run at:
 
-API will run at:
-
+```
 http://127.0.0.1:8000
+```
 
+Swagger documentation:
 
-Swagger Docs:
-
+```
 http://127.0.0.1:8000/docs
+```
 
-Endpoint
-POST /predict
+## Endpoint
+
+### POST /predict
 
 Request:
 
+```json
 {
   "url": "https://example.com"
 }
-
+```
 
 Response:
 
+```json
 {
   "url": "https://example.com",
-  "prediction": "safe"  
+  "prediction": "safe"
 }
+```
 
-Project Files
-main.py              # FastAPI application  
-phishing_model.pkl   # Trained ML model  
-vectorizer.pkl       # Text vectorizer  
+## Project Files
+
+```
+main.py              # FastAPI application
+phishing_model.pkl   # Trained ML model
+vectorizer.pkl       # Text vectorizer
 requirements.txt     # Dependencies
+```
 
-How It Works
+## How It Works
 
-Extracts base domain
+1. Extracts base domain
+2. Checks if the domain is trusted
+3. If not trusted, processes and vectorizes the URL
+4. Model predicts safe or phishing
 
-Checks if the domain is trusted
+## Deployment
 
-If not trusted, processes and vectorizes the URL
-
-Model predicts safe/phishing
-
-Deployment
+```
 uvicorn main:app --host 0.0.0.0 --port 8000
+```
 
-Author
+## Author
 
-Developed by Alreem Alothman
+Developed by **Alreem Alothman**
+
