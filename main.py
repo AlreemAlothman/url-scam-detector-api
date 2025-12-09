@@ -51,6 +51,7 @@ app = FastAPI(
 # قائمة الدومينات الموثوقة 
 TRUSTED_DOMAINS = {
     "google.com",
+    "https://translate.google.com/",
     "youtube.com",
     "facebook.com",
     "twitter.com",
@@ -188,5 +189,6 @@ if __name__ == "__main__":
         port=port,
         reload=False
     )
+
 
 
